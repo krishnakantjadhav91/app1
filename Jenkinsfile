@@ -5,14 +5,18 @@ pipeline {
       steps {
         echo "Testing"
       }
+    }
 
       stage("Build") {
-        echo "Builing the application"
+        steps {
+          echo "Builing the application"
+        }        
       }
 
       stage("Deploy") {
-        echo "Deploy the Application"
-      }      
-    }
+        steps {
+          echo "Deploy the Application"
+        }        
+      }    
   }
 }
