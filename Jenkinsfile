@@ -14,4 +14,5 @@ pipeline {
         echo "Deploy the Application"
       }      
     }
+  }
 }
