@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4914" started-at="2021-09-15T12:50:20Z" finished-at="2021-09-15T12:50:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4914" started-at="2021-09-15T12:50:20Z" finished-at="2021-09-15T12:50:25Z">
+      <class name="com.apps.app1.TestFile">
+        <test-method status="PASS" signature="t1()[pri:0, instance:com.apps.app1.TestFile@a4a92b]" name="t1" is-config="true" duration-ms="4192" started-at="2021-09-15T18:20:20Z" finished-at="2021-09-15T18:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+        <test-method status="FAIL" signature="test1()[pri:0, instance:com.apps.app1.TestFile@a4a92b]" name="test1" duration-ms="67" started-at="2021-09-15T18:20:24Z" finished-at="2021-09-15T18:20:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Automation Demo Sitee] but found [Automation Demo Site]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Automation Demo Sitee] but found [Automation Demo Site]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.apps.app1.TestFile.test1(TestFile.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearOut()[pri:0, instance:com.apps.app1.TestFile@a4a92b]" name="tearOut" is-config="true" duration-ms="643" started-at="2021-09-15T18:20:24Z" finished-at="2021-09-15T18:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearOut -->
+      </class> <!-- com.apps.app1.TestFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
